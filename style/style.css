@@ -130,3 +130,31 @@ body{
     justify-content: space-between;
     height: 100vh;
 }
+
+
+@media only screen and (max-width: 600px) {
+  
+.yz {
+  height: 100vh;
+  margin:0;
+  align-content: center;
+  
+}
+
+footer{
+ display: none;
+}
+
+.sayjesus{
+  display: none;
+}
+
+.logo{
+  width: 180px;
+  height: 200px!important;
+}
+
+.antiwoke {
+  width: 100%;
+}
+}
