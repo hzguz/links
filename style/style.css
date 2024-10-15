@@ -1,27 +1,26 @@
 body{
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      width: 100%;
-      margin: 0;
-      flex-direction: column;
-    }
-    .logo img{
-        width: 180px;
-    }
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+margin: 0;
+flex-direction: column;
+}
+.logo img{
+width: 180px;
+}
 
-    .yz {
-        background-color: rgba(0, 0, 0, 0.11);
-        backdrop-filter: blur(32px);
-        padding: 64px 120px 64px 120px;
-        display: grid;
-        grid-gap: 32px;
-        
-    }
+.yz {
+background-color: rgba(0, 0, 0, 0.11);
+backdrop-filter: blur(32px);
+padding: 64px 120px 64px 120px;
+display: grid;
+grid-gap: 32px;   
+}
 
 
     .vertical-menu {
@@ -154,4 +153,8 @@ footer{
 .antiwoke {
   width: 100%;
 }
+
+#modal-copiado {
+    top: 60%;
+    }
 }
