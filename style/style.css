@@ -1,0 +1,132 @@
+body{
+        background: url(1009.mp4);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100%;
+      margin: 0;
+      flex-direction: column;
+    }
+    .logo img{
+        width: 180px;
+    }
+
+    .yz {
+        background-color: rgba(0, 0, 0, 0.11);
+        backdrop-filter: blur(32px);
+        padding: 64px 120px 64px 120px;
+        display: grid;
+        grid-gap: 32px;
+        
+    }
+
+
+    .vertical-menu {
+  width: 100%; /* Define a largura do menu */
+  display: grid;
+        grid-gap: 8px;
+}
+
+.vertical-menu a {
+  color: rgb(156, 156, 156); /* Cor do texto preta */
+  display: block; /* Faz os links aparecerem um abaixo do outro */
+  padding: 12px; /* Adiciona um pouco de padding */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  text-align: center;
+  transition: all 0.6s;
+  font-family: inter ;
+  font-size: 14px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.vertical-menu a:hover {
+    color: white;
+    transition: all 0.6s;
+    background-color: rgba(255, 255, 255, 0.034);
+}
+
+.vertical-menu a.active {
+  color: white; /* Cor do texto branca para o link ativo */
+  transition: all 0.6s;
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Garante que o vídeo cobre o background */
+  z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+}
+
+#modal-copiado {
+    position: absolute;
+    left: 32%;
+    top: 89%;
+    padding: 8px 16px;
+    background-color: #6b6b6b4d;
+    color: #fff;
+    font-size: 13px;
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.6s;
+    font-family: inter;
+    font-weight: 200;
+    }
+
+    footer{
+      font-family: inter;
+      font-size: 12px;
+      font-weight: 200;
+      align-self: center;
+      margin-top: 32px;
+      bottom: 0;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 10px 10px 0 0;
+    }
+
+    a {
+    text-decoration: none; /* Remove sublinhado */
+    color: inherit;        /* Herda a cor do texto ao redor */
+    background: none;      /* Remove qualquer background */
+    border: none;          /* Remove borda, se houver */
+    outline: none;         /* Remove contorno, se houver */
+}
+
+.hiper:hover {
+    transition: all 0.6s;
+    text-shadow: 0 0 6px #ffffff33, 0 0 10px #ffffff8f, 0 0 15px #ffffff9f;
+    font-weight: 400;
+}
+
+.hiper {
+    transition: all 0.6s;
+
+}
+
+.sayjesus {
+  height: 59px;
+  width: 30px;
+}
+
+.antiwoke {
+     display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
