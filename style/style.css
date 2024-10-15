@@ -149,6 +149,9 @@ footer{
   display: none;
 }
 
+.vertical-menu a {
+  font-size: 16px;
+}
 .antiwoke {
   width: 100%;
 }
