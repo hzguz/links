@@ -34,7 +34,7 @@ body {
 .vertical-menu a {
     color: rgb(156, 156, 156); /* Cor do texto preta */
     display: block; /* Faz os links aparecerem um abaixo do outro */
-    padding: 12px 32px; /* Adiciona um pouco de padding */
+    padding: 12px 45px; /* Adiciona um pouco de padding */
     text-decoration: none; /* Remove o sublinhado dos links */
     text-align: center;
     transition: all 0.6s;
